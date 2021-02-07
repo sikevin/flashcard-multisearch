@@ -1,0 +1,40 @@
+body{
+    background-color: #1F2937;
+    color: #EFEFEF;
+    font-size:24px;
+    font-family: Inter;
+    margin: auto;
+    padding: auto;
+}
+
+.main{
+    margin:auto;
+    text-align: center;
+    max-width:768px;
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-100%);
+}
+
+input{
+    padding: 0 15px;
+    width: 90%;
+    height: 40px;
+    border-radius:10px;
+}
+
+select{
+    height: 30px;
+    border-radius:5px;
+    padding: 0 10px;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border: 3px solid #A6BFE6;
+}
+
+.lang{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
